@@ -1,0 +1,17 @@
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice.ApplicationServices\bin\Debug\net5.0\PassengerMicroservice.ApplicationServices.deps.json
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice.ApplicationServices\bin\Debug\net5.0\PassengerMicroservice.ApplicationServices.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice.ApplicationServices\bin\Debug\net5.0\ref\PassengerMicroservice.ApplicationServices.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice.ApplicationServices\bin\Debug\net5.0\PassengerMicroservice.ApplicationServices.pdb
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice.ApplicationServices\bin\Debug\net5.0\PassengerMicroservice.Core.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice.ApplicationServices\bin\Debug\net5.0\PassengerMicroservice.Core.pdb
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice.ApplicationServices\obj\Debug\net5.0\PassengerMicroservice.ApplicationServices.csproj.AssemblyReference.cache
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice.ApplicationServices\obj\Debug\net5.0\PassengerMicroservice.ApplicationServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice.ApplicationServices\obj\Debug\net5.0\PassengerMicroservice.ApplicationServices.AssemblyInfoInputs.cache
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice.ApplicationServices\obj\Debug\net5.0\PassengerMicroservice.ApplicationServices.AssemblyInfo.cs
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice.ApplicationServices\obj\Debug\net5.0\PassengerMicroservice.ApplicationServices.csproj.CoreCompileInputs.cache
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice.ApplicationServices\obj\Debug\net5.0\PassengerMicroservice.ApplicationServices.csproj.CopyComplete
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice.ApplicationServices\obj\Debug\net5.0\PassengerMicroservice.ApplicationServices.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice.ApplicationServices\obj\Debug\net5.0\ref\PassengerMicroservice.ApplicationServices.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice.ApplicationServices\obj\Debug\net5.0\PassengerMicroservice.ApplicationServices.pdb
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice.ApplicationServices\bin\Debug\net5.0\PassengerMicroservice.DataAccess.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice.ApplicationServices\bin\Debug\net5.0\PassengerMicroservice.DataAccess.pdb
