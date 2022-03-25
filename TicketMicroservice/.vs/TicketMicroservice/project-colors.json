@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "208471cf-c173-42c3-b07e-1b4987e841be": {
+      "ProjectGuid": "208471cf-c173-42c3-b07e-1b4987e841be",
+      "DisplayName": "TicketMicroservice",
+      "ColorIndex": 0
+    },
+    "2e77f396-c566-4e0e-92e5-cc076cfdd4e3": {
+      "ProjectGuid": "2e77f396-c566-4e0e-92e5-cc076cfdd4e3",
+      "DisplayName": "TicketMicroservice.ApliccationServices",
+      "ColorIndex": 1
+    },
+    "908d263b-5904-4b87-a1c9-20cd2f5cb204": {
+      "ProjectGuid": "908d263b-5904-4b87-a1c9-20cd2f5cb204",
+      "DisplayName": "TicketMicroservice.Core",
+      "ColorIndex": 2
+    },
+    "61f2bc19-8789-4ecd-98fc-d807a017bd08": {
+      "ProjectGuid": "61f2bc19-8789-4ecd-98fc-d807a017bd08",
+      "DisplayName": "TicketMicroservice.DataAccess",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

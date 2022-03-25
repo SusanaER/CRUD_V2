@@ -1,0 +1,209 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Susana\\source\\repos\\Api\\TicketMicroservice\\TicketMicroservice.ApliccationServices\\TicketMicroservice.ApliccationServices.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Susana\\source\\repos\\Api\\TicketMicroservice\\TicketMicroservice.ApliccationServices\\TicketMicroservice.ApliccationServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Susana\\source\\repos\\Api\\TicketMicroservice\\TicketMicroservice.ApliccationServices\\TicketMicroservice.ApliccationServices.csproj",
+        "projectName": "TicketMicroservice.ApliccationServices",
+        "projectPath": "C:\\Users\\Susana\\source\\repos\\Api\\TicketMicroservice\\TicketMicroservice.ApliccationServices\\TicketMicroservice.ApliccationServices.csproj",
+        "packagesPath": "C:\\Users\\Susana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Susana\\source\\repos\\Api\\TicketMicroservice\\TicketMicroservice.ApliccationServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Susana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Susana\\source\\repos\\Api\\TicketMicroservice\\TicketMicroservice.Core\\TicketMicroservice.Core.csproj": {
+                "projectPath": "C:\\Users\\Susana\\source\\repos\\Api\\TicketMicroservice\\TicketMicroservice.Core\\TicketMicroservice.Core.csproj"
+              },
+              "C:\\Users\\Susana\\source\\repos\\Api\\TicketMicroservice\\TicketMicroservice.DataAccess\\TicketMicroservice.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Susana\\source\\repos\\Api\\TicketMicroservice\\TicketMicroservice.DataAccess\\TicketMicroservice.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Susana\\source\\repos\\Api\\TicketMicroservice\\TicketMicroservice.Core\\TicketMicroservice.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Susana\\source\\repos\\Api\\TicketMicroservice\\TicketMicroservice.Core\\TicketMicroservice.Core.csproj",
+        "projectName": "TicketMicroservice.Core",
+        "projectPath": "C:\\Users\\Susana\\source\\repos\\Api\\TicketMicroservice\\TicketMicroservice.Core\\TicketMicroservice.Core.csproj",
+        "packagesPath": "C:\\Users\\Susana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Susana\\source\\repos\\Api\\TicketMicroservice\\TicketMicroservice.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Susana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Susana\\source\\repos\\Api\\TicketMicroservice\\TicketMicroservice.DataAccess\\TicketMicroservice.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Susana\\source\\repos\\Api\\TicketMicroservice\\TicketMicroservice.DataAccess\\TicketMicroservice.DataAccess.csproj",
+        "projectName": "TicketMicroservice.DataAccess",
+        "projectPath": "C:\\Users\\Susana\\source\\repos\\Api\\TicketMicroservice\\TicketMicroservice.DataAccess\\TicketMicroservice.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Susana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Susana\\source\\repos\\Api\\TicketMicroservice\\TicketMicroservice.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Susana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Susana\\source\\repos\\Api\\TicketMicroservice\\TicketMicroservice.Core\\TicketMicroservice.Core.csproj": {
+                "projectPath": "C:\\Users\\Susana\\source\\repos\\Api\\TicketMicroservice\\TicketMicroservice.Core\\TicketMicroservice.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

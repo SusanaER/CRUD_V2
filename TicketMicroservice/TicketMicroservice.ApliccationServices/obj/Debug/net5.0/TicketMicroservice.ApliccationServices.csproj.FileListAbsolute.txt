@@ -1,0 +1,17 @@
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice.ApliccationServices\bin\Debug\net5.0\TicketMicroservice.ApliccationServices.deps.json
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice.ApliccationServices\bin\Debug\net5.0\TicketMicroservice.ApliccationServices.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice.ApliccationServices\bin\Debug\net5.0\ref\TicketMicroservice.ApliccationServices.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice.ApliccationServices\bin\Debug\net5.0\TicketMicroservice.ApliccationServices.pdb
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice.ApliccationServices\bin\Debug\net5.0\TicketMicroservice.Core.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice.ApliccationServices\bin\Debug\net5.0\TicketMicroservice.DataAccess.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice.ApliccationServices\bin\Debug\net5.0\TicketMicroservice.Core.pdb
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice.ApliccationServices\bin\Debug\net5.0\TicketMicroservice.DataAccess.pdb
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice.ApliccationServices\obj\Debug\net5.0\TicketMicroservice.ApliccationServices.csproj.AssemblyReference.cache
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice.ApliccationServices\obj\Debug\net5.0\TicketMicroservice.ApliccationServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice.ApliccationServices\obj\Debug\net5.0\TicketMicroservice.ApliccationServices.AssemblyInfoInputs.cache
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice.ApliccationServices\obj\Debug\net5.0\TicketMicroservice.ApliccationServices.AssemblyInfo.cs
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice.ApliccationServices\obj\Debug\net5.0\TicketMicroservice.ApliccationServices.csproj.CoreCompileInputs.cache
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice.ApliccationServices\obj\Debug\net5.0\TicketMicroservice.ApliccationServices.csproj.CopyComplete
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice.ApliccationServices\obj\Debug\net5.0\TicketMicroservice.ApliccationServices.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice.ApliccationServices\obj\Debug\net5.0\ref\TicketMicroservice.ApliccationServices.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice.ApliccationServices\obj\Debug\net5.0\TicketMicroservice.ApliccationServices.pdb

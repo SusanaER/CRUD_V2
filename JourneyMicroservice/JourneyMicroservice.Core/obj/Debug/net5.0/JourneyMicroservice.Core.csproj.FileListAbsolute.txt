@@ -1,0 +1,12 @@
+C:\Users\Susana\source\repos\Api\JourneyMicroservice\JourneyMicroservice.Core\bin\Debug\net5.0\JourneyMicroservice.Core.deps.json
+C:\Users\Susana\source\repos\Api\JourneyMicroservice\JourneyMicroservice.Core\bin\Debug\net5.0\JourneyMicroservice.Core.dll
+C:\Users\Susana\source\repos\Api\JourneyMicroservice\JourneyMicroservice.Core\bin\Debug\net5.0\ref\JourneyMicroservice.Core.dll
+C:\Users\Susana\source\repos\Api\JourneyMicroservice\JourneyMicroservice.Core\bin\Debug\net5.0\JourneyMicroservice.Core.pdb
+C:\Users\Susana\source\repos\Api\JourneyMicroservice\JourneyMicroservice.Core\obj\Debug\net5.0\JourneyMicroservice.Core.csproj.AssemblyReference.cache
+C:\Users\Susana\source\repos\Api\JourneyMicroservice\JourneyMicroservice.Core\obj\Debug\net5.0\JourneyMicroservice.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Susana\source\repos\Api\JourneyMicroservice\JourneyMicroservice.Core\obj\Debug\net5.0\JourneyMicroservice.Core.AssemblyInfoInputs.cache
+C:\Users\Susana\source\repos\Api\JourneyMicroservice\JourneyMicroservice.Core\obj\Debug\net5.0\JourneyMicroservice.Core.AssemblyInfo.cs
+C:\Users\Susana\source\repos\Api\JourneyMicroservice\JourneyMicroservice.Core\obj\Debug\net5.0\JourneyMicroservice.Core.csproj.CoreCompileInputs.cache
+C:\Users\Susana\source\repos\Api\JourneyMicroservice\JourneyMicroservice.Core\obj\Debug\net5.0\JourneyMicroservice.Core.dll
+C:\Users\Susana\source\repos\Api\JourneyMicroservice\JourneyMicroservice.Core\obj\Debug\net5.0\ref\JourneyMicroservice.Core.dll
+C:\Users\Susana\source\repos\Api\JourneyMicroservice\JourneyMicroservice.Core\obj\Debug\net5.0\JourneyMicroservice.Core.pdb
