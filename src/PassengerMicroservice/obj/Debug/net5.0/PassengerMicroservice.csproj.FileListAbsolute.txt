@@ -1,0 +1,120 @@
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\appsettings.json
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\PassengerMicroservice.StaticWebAssets.xml
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\PassengerMicroservice.exe
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\PassengerMicroservice.deps.json
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\PassengerMicroservice.runtimeconfig.json
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\PassengerMicroservice.runtimeconfig.dev.json
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\PassengerMicroservice.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\ref\PassengerMicroservice.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\PassengerMicroservice.pdb
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\MySqlConnector.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\obj\Debug\net5.0\PassengerMicroservice.csproj.AssemblyReference.cache
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\obj\Debug\net5.0\PassengerMicroservice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\obj\Debug\net5.0\PassengerMicroservice.AssemblyInfoInputs.cache
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\obj\Debug\net5.0\PassengerMicroservice.AssemblyInfo.cs
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\obj\Debug\net5.0\PassengerMicroservice.csproj.CoreCompileInputs.cache
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\obj\Debug\net5.0\PassengerMicroservice.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\obj\Debug\net5.0\PassengerMicroservice.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\obj\Debug\net5.0\scopedcss\bundle\PassengerMicroservice.styles.css
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\obj\Debug\net5.0\staticwebassets\PassengerMicroservice.StaticWebAssets.Manifest.cache
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\obj\Debug\net5.0\staticwebassets\PassengerMicroservice.StaticWebAssets.xml
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\obj\Debug\net5.0\PassengerMicroservice.RazorTargetAssemblyInfo.cache
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\obj\Debug\net5.0\PassengerMicroservice.csproj.CopyComplete
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\obj\Debug\net5.0\PassengerMicroservice.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\obj\Debug\net5.0\ref\PassengerMicroservice.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\obj\Debug\net5.0\PassengerMicroservice.pdb
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\obj\Debug\net5.0\PassengerMicroservice.genruntimeconfig.cache
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\PassengerMicroservice.ApplicationServices.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\PassengerMicroservice.Core.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\PassengerMicroservice.DataAccess.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\PassengerMicroservice.ApplicationServices.pdb
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\PassengerMicroservice.Core.pdb
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\PassengerMicroservice.DataAccess.pdb
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\appsettings.json
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\PassengerMicroservice.StaticWebAssets.xml
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\PassengerMicroservice.exe
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\PassengerMicroservice.deps.json
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\PassengerMicroservice.runtimeconfig.json
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\PassengerMicroservice.runtimeconfig.dev.json
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\PassengerMicroservice.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\ref\PassengerMicroservice.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\PassengerMicroservice.pdb
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\MySqlConnector.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\PassengerMicroservice.ApplicationServices.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\PassengerMicroservice.Core.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\PassengerMicroservice.DataAccess.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\PassengerMicroservice.ApplicationServices.pdb
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\PassengerMicroservice.Core.pdb
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\bin\Debug\net5.0\PassengerMicroservice.DataAccess.pdb
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\obj\Debug\net5.0\PassengerMicroservice.csproj.AssemblyReference.cache
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\obj\Debug\net5.0\PassengerMicroservice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\obj\Debug\net5.0\PassengerMicroservice.AssemblyInfoInputs.cache
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\obj\Debug\net5.0\PassengerMicroservice.AssemblyInfo.cs
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\obj\Debug\net5.0\PassengerMicroservice.csproj.CoreCompileInputs.cache
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\obj\Debug\net5.0\PassengerMicroservice.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\obj\Debug\net5.0\PassengerMicroservice.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\obj\Debug\net5.0\scopedcss\bundle\PassengerMicroservice.styles.css
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\obj\Debug\net5.0\staticwebassets\PassengerMicroservice.StaticWebAssets.Manifest.cache
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\obj\Debug\net5.0\staticwebassets\PassengerMicroservice.StaticWebAssets.xml
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\obj\Debug\net5.0\PassengerMicroservice.RazorTargetAssemblyInfo.cache
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\obj\Debug\net5.0\PassengerMicroservice.csproj.CopyComplete
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\obj\Debug\net5.0\PassengerMicroservice.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\obj\Debug\net5.0\ref\PassengerMicroservice.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\obj\Debug\net5.0\PassengerMicroservice.pdb
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice\obj\Debug\net5.0\PassengerMicroservice.genruntimeconfig.cache

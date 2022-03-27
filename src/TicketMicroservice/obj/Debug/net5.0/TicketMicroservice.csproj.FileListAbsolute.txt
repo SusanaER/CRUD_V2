@@ -1,0 +1,120 @@
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\appsettings.json
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\TicketMicroservice.StaticWebAssets.xml
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\TicketMicroservice.exe
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\TicketMicroservice.deps.json
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\TicketMicroservice.runtimeconfig.json
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\TicketMicroservice.runtimeconfig.dev.json
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\TicketMicroservice.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\ref\TicketMicroservice.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\TicketMicroservice.pdb
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\MySqlConnector.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\TicketMicroservice.ApliccationServices.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\TicketMicroservice.Core.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\TicketMicroservice.DataAccess.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\TicketMicroservice.ApliccationServices.pdb
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\TicketMicroservice.Core.pdb
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\bin\Debug\net5.0\TicketMicroservice.DataAccess.pdb
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\obj\Debug\net5.0\TicketMicroservice.csproj.AssemblyReference.cache
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\obj\Debug\net5.0\TicketMicroservice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\obj\Debug\net5.0\TicketMicroservice.AssemblyInfoInputs.cache
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\obj\Debug\net5.0\TicketMicroservice.AssemblyInfo.cs
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\obj\Debug\net5.0\TicketMicroservice.csproj.CoreCompileInputs.cache
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\obj\Debug\net5.0\TicketMicroservice.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\obj\Debug\net5.0\TicketMicroservice.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\obj\Debug\net5.0\scopedcss\bundle\TicketMicroservice.styles.css
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\obj\Debug\net5.0\staticwebassets\TicketMicroservice.StaticWebAssets.Manifest.cache
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\obj\Debug\net5.0\staticwebassets\TicketMicroservice.StaticWebAssets.xml
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\obj\Debug\net5.0\TicketMicroservice.RazorTargetAssemblyInfo.cache
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\obj\Debug\net5.0\TicketMicroservice.csproj.CopyComplete
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\obj\Debug\net5.0\TicketMicroservice.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\obj\Debug\net5.0\ref\TicketMicroservice.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\obj\Debug\net5.0\TicketMicroservice.pdb
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice\obj\Debug\net5.0\TicketMicroservice.genruntimeconfig.cache
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\appsettings.json
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\TicketMicroservice.StaticWebAssets.xml
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\TicketMicroservice.exe
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\TicketMicroservice.deps.json
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\TicketMicroservice.runtimeconfig.json
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\TicketMicroservice.runtimeconfig.dev.json
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\TicketMicroservice.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\ref\TicketMicroservice.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\TicketMicroservice.pdb
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\MySqlConnector.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\TicketMicroservice.ApliccationServices.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\TicketMicroservice.Core.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\TicketMicroservice.DataAccess.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\TicketMicroservice.ApliccationServices.pdb
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\TicketMicroservice.Core.pdb
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\bin\Debug\net5.0\TicketMicroservice.DataAccess.pdb
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\obj\Debug\net5.0\TicketMicroservice.csproj.AssemblyReference.cache
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\obj\Debug\net5.0\TicketMicroservice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\obj\Debug\net5.0\TicketMicroservice.AssemblyInfoInputs.cache
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\obj\Debug\net5.0\TicketMicroservice.AssemblyInfo.cs
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\obj\Debug\net5.0\TicketMicroservice.csproj.CoreCompileInputs.cache
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\obj\Debug\net5.0\TicketMicroservice.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\obj\Debug\net5.0\TicketMicroservice.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\obj\Debug\net5.0\scopedcss\bundle\TicketMicroservice.styles.css
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\obj\Debug\net5.0\staticwebassets\TicketMicroservice.StaticWebAssets.Manifest.cache
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\obj\Debug\net5.0\staticwebassets\TicketMicroservice.StaticWebAssets.xml
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\obj\Debug\net5.0\TicketMicroservice.RazorTargetAssemblyInfo.cache
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\obj\Debug\net5.0\TicketMicroservice.csproj.CopyComplete
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\obj\Debug\net5.0\TicketMicroservice.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\obj\Debug\net5.0\ref\TicketMicroservice.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\obj\Debug\net5.0\TicketMicroservice.pdb
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice\obj\Debug\net5.0\TicketMicroservice.genruntimeconfig.cache

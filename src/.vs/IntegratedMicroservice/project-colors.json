@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3da70281-d66c-4dd4-9b05-dbee25ac44ce": {
+      "ProjectGuid": "3da70281-d66c-4dd4-9b05-dbee25ac44ce",
+      "DisplayName": "docker-compose",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "018f7c26-8183-4579-afb6-c1ada048b52c": {
+      "ProjectGuid": "018f7c26-8183-4579-afb6-c1ada048b52c",
+      "DisplayName": "PassengerMicroservice",
+      "ColorIndex": 1
+    },
+    "d90d6de4-f62e-40ff-8170-a292a89b107c": {
+      "ProjectGuid": "d90d6de4-f62e-40ff-8170-a292a89b107c",
+      "DisplayName": "JourneyMicroservice",
+      "ColorIndex": 2
+    },
+    "5404b1b7-fd8b-4c5e-8353-48cf429b6295": {
+      "ProjectGuid": "5404b1b7-fd8b-4c5e-8353-48cf429b6295",
+      "DisplayName": "JourneyMicroservice.ApplicationService",
+      "ColorIndex": 3
+    },
+    "2e77f396-c566-4e0e-92e5-cc076cfdd4e3": {
+      "ProjectGuid": "2e77f396-c566-4e0e-92e5-cc076cfdd4e3",
+      "DisplayName": "TicketMicroservice.ApliccationServices",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}

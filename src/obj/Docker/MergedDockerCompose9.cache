@@ -1,0 +1,34 @@
+services:
+  journeymicroservice:
+    build:
+      context: C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src
+      dockerfile: TicketMicroservice/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: journeymicroservice
+    ports:
+    - published: 5000
+      target: 80
+    - published: 777
+      target: 443
+    restart: always
+  ticketmicroservice:
+    build:
+      context: C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src
+      dockerfile: TicketMicroservice/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: ticketmicroservice
+    ports:
+    - published: 5000
+      target: 80
+    - target: 80
+    - published: 777
+      target: 443
+    - target: 443
+    restart: always
+    volumes:
+    - C:\Users\Susana\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\Susana\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'
