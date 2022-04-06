@@ -7197,9 +7197,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Susana\\Documents\\Punto Singular\\CRUD_V2\\src\\NUnitTestPassanger\\NUnitTest.csproj",
-      "projectName": "NUnitTest",
-      "projectPath": "C:\\Users\\Susana\\Documents\\Punto Singular\\CRUD_V2\\src\\NUnitTestPassanger\\NUnitTest.csproj",
+      "projectUniqueName": "C:\\Users\\Susana\\Documents\\Punto Singular\\CRUD_V2\\src\\NUnitTestPassanger\\PassengerTest.csproj",
+      "projectName": "PassengerTest",
+      "projectPath": "C:\\Users\\Susana\\Documents\\Punto Singular\\CRUD_V2\\src\\NUnitTestPassanger\\PassengerTest.csproj",
       "packagesPath": "C:\\Users\\Susana\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Susana\\Documents\\Punto Singular\\CRUD_V2\\src\\NUnitTestPassanger\\obj\\",
       "projectStyle": "PackageReference",

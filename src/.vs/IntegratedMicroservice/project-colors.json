@@ -30,7 +30,17 @@
       "ProjectGuid": "2e77f396-c566-4e0e-92e5-cc076cfdd4e3",
       "DisplayName": "TicketMicroservice.ApliccationServices",
       "ColorIndex": 4
+    },
+    "fa9677d9-e3c7-4ba0-8b92-b622869d12b8": {
+      "ProjectGuid": "fa9677d9-e3c7-4ba0-8b92-b622869d12b8",
+      "DisplayName": "JourneyTest",
+      "ColorIndex": 5
+    },
+    "8b22f8c1-00c8-4336-a8ef-24c22911be83": {
+      "ProjectGuid": "8b22f8c1-00c8-4336-a8ef-24c22911be83",
+      "DisplayName": "PassengerTest",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 5
+  "NextColorIndex": 7
 }

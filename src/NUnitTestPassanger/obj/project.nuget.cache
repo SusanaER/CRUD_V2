@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zsVoKWTc64hu1o9U+qMkDwys60ycdaBomFT3xmaXc5bFGD9eCJSNwDwgrbenlCzybl5c+pNeLKe46Bad5QX9XQ==",
+  "dgSpecHash": "ZaIyqvmOk38Ft8z7QHWV2CwfL8if6pTo8TMh0lcJ3SoiXt8H1LtwnQl2JQERNKMvTPlBDsOp6NNjINhnWgFIIQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Susana\\Documents\\Punto Singular\\CRUD_V2\\src\\NUnitTestPassanger\\NUnitTest.csproj",
+  "projectFilePath": "C:\\Users\\Susana\\Documents\\Punto Singular\\CRUD_V2\\src\\NUnitTestPassanger\\PassengerTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Susana\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\Susana\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
