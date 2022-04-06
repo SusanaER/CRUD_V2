@@ -1,0 +1,76 @@
+services:
+  journeymicroservice:
+    build:
+      context: C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src
+      dockerfile: JourneyMicroservice/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: JourneyMicroservice
+    container_name: JourneyMicroservice
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: ''
+    image: journeymicroservice:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  "/app/bin/Debug/net5.0/JourneyMicroservice.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - published: 5000
+      target: 80
+    - published: 777
+      target: 443
+    restart: always
+    tty: true
+    volumes:
+    - C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\JourneyMicroservice:/app:rw
+    - C:\Users\Susana\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\Susana\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\Susana\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - C:\Users\Susana\.nuget\packages:/root/.nuget/packages:ro
+    - C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src:/src:rw
+  ticketmicroservice:
+    build:
+      context: C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src
+      dockerfile: TicketMicroservice/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: TicketMicroservice
+      target: base
+    container_name: TicketMicroservice
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: ''
+    image: ticketmicroservice:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  "/app/bin/Debug/net5.0/TicketMicroservice.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - published: 5000
+      target: 80
+    - target: 80
+    - published: 777
+      target: 443
+    - target: 443
+    restart: always
+    tty: true
+    volumes:
+    - C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice:/app:rw
+    - C:\Users\Susana\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\Susana\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\Susana\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - C:\Users\Susana\.nuget\packages:/root/.nuget/packages:ro
+    - C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src:/src:rw
+version: '3.4'

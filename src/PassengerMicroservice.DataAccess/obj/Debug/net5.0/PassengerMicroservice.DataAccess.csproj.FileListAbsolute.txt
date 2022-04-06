@@ -1,0 +1,36 @@
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice.DataAccess\bin\Debug\net5.0\PassengerMicroservice.DataAccess.deps.json
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice.DataAccess\bin\Debug\net5.0\PassengerMicroservice.DataAccess.runtimeconfig.json
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice.DataAccess\bin\Debug\net5.0\PassengerMicroservice.DataAccess.runtimeconfig.dev.json
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice.DataAccess\bin\Debug\net5.0\PassengerMicroservice.DataAccess.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice.DataAccess\bin\Debug\net5.0\ref\PassengerMicroservice.DataAccess.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice.DataAccess\bin\Debug\net5.0\PassengerMicroservice.DataAccess.pdb
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice.DataAccess\bin\Debug\net5.0\PassengerMicroservice.Core.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice.DataAccess\bin\Debug\net5.0\PassengerMicroservice.Core.pdb
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice.DataAccess\obj\Debug\net5.0\PassengerMicroservice.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice.DataAccess\obj\Debug\net5.0\PassengerMicroservice.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice.DataAccess\obj\Debug\net5.0\PassengerMicroservice.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice.DataAccess\obj\Debug\net5.0\PassengerMicroservice.DataAccess.AssemblyInfo.cs
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice.DataAccess\obj\Debug\net5.0\PassengerMicroservice.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice.DataAccess\obj\Debug\net5.0\PassengerMicroservice.DataAccess.csproj.CopyComplete
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice.DataAccess\obj\Debug\net5.0\PassengerMicroservice.DataAccess.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice.DataAccess\obj\Debug\net5.0\ref\PassengerMicroservice.DataAccess.dll
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice.DataAccess\obj\Debug\net5.0\PassengerMicroservice.DataAccess.pdb
+C:\Users\Susana\source\repos\Api\PassengerMicroservice\PassengerMicroservice.DataAccess\obj\Debug\net5.0\PassengerMicroservice.DataAccess.genruntimeconfig.cache
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice.DataAccess\bin\Debug\net5.0\PassengerMicroservice.DataAccess.deps.json
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice.DataAccess\bin\Debug\net5.0\PassengerMicroservice.DataAccess.runtimeconfig.json
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice.DataAccess\bin\Debug\net5.0\PassengerMicroservice.DataAccess.runtimeconfig.dev.json
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice.DataAccess\bin\Debug\net5.0\PassengerMicroservice.DataAccess.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice.DataAccess\bin\Debug\net5.0\ref\PassengerMicroservice.DataAccess.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice.DataAccess\bin\Debug\net5.0\PassengerMicroservice.DataAccess.pdb
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice.DataAccess\bin\Debug\net5.0\PassengerMicroservice.Core.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice.DataAccess\bin\Debug\net5.0\PassengerMicroservice.Core.pdb
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice.DataAccess\obj\Debug\net5.0\PassengerMicroservice.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice.DataAccess\obj\Debug\net5.0\PassengerMicroservice.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice.DataAccess\obj\Debug\net5.0\PassengerMicroservice.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice.DataAccess\obj\Debug\net5.0\PassengerMicroservice.DataAccess.AssemblyInfo.cs
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice.DataAccess\obj\Debug\net5.0\PassengerMicroservice.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice.DataAccess\obj\Debug\net5.0\PassengerMicroservice.DataAccess.csproj.CopyComplete
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice.DataAccess\obj\Debug\net5.0\PassengerMicroservice.DataAccess.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice.DataAccess\obj\Debug\net5.0\ref\PassengerMicroservice.DataAccess.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice.DataAccess\obj\Debug\net5.0\PassengerMicroservice.DataAccess.pdb
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\PassengerMicroservice.DataAccess\obj\Debug\net5.0\PassengerMicroservice.DataAccess.genruntimeconfig.cache

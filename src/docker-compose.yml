@@ -1,0 +1,38 @@
+version: '3.4'
+
+services:
+  ticketmicroservice:
+    image: ${DOCKER_REGISTRY-}ticketapi
+    build:
+      context: .
+      dockerfile: TicketMicroservice/Dockerfile
+    ports:
+      - "5000:80"
+      - "777:443"
+    restart: always
+    environment: 
+      - ASPNETCORE_ENVIRONMENT=Development
+
+  journeymicroservice:
+    image: ${DOCKER_REGISTRY-}journeyapi
+    build:
+      context: .
+      dockerfile: JourneyMicroservice/Dockerfile
+    ports:
+      - "8000:80"
+      - "773:443"
+    restart: always
+    environment: 
+      - ASPNETCORE_ENVIRONMENT=Development
+
+  passangermicroservice:
+    image: ${DOCKER_REGISTRY-}passangerapi
+    build:
+      context: .
+      dockerfile: PassengerMicroservice/Dockerfile
+    ports:
+      - "5010:80"
+      - "778:443"
+    restart: always
+    environment: 
+      - ASPNETCORE_ENVIRONMENT=Development

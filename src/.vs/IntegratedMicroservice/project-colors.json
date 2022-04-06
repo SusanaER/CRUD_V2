@@ -40,22 +40,7 @@
       "ProjectGuid": "8b22f8c1-00c8-4336-a8ef-24c22911be83",
       "DisplayName": "PassengerTest",
       "ColorIndex": 6
-    },
-    "c3997f3d-6735-4c10-b0f8-7c80c98b9b41": {
-      "ProjectGuid": "c3997f3d-6735-4c10-b0f8-7c80c98b9b41",
-      "DisplayName": "JourneyMicroservice.Core",
-      "ColorIndex": 7
-    },
-    "691ad610-3d6e-46ea-bcf3-9601bb0851f8": {
-      "ProjectGuid": "691ad610-3d6e-46ea-bcf3-9601bb0851f8",
-      "DisplayName": "TicketTest",
-      "ColorIndex": 8
-    },
-    "908d263b-5904-4b87-a1c9-20cd2f5cb204": {
-      "ProjectGuid": "908d263b-5904-4b87-a1c9-20cd2f5cb204",
-      "DisplayName": "TicketMicroservice.Core",
-      "ColorIndex": 9
     }
   },
-  "NextColorIndex": 10
+  "NextColorIndex": 7
 }

@@ -1,0 +1,15 @@
+services:
+  ticketmicroservice:
+    build:
+      context: C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src
+      dockerfile: TicketMicroservice/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: ticketmicroservice
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - C:\Users\Susana\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+version: '3.4'

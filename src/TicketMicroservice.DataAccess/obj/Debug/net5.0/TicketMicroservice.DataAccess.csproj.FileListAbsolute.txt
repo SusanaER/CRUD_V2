@@ -1,0 +1,36 @@
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice.DataAccess\bin\Debug\net5.0\TicketMicroservice.DataAccess.deps.json
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice.DataAccess\bin\Debug\net5.0\TicketMicroservice.DataAccess.runtimeconfig.json
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice.DataAccess\bin\Debug\net5.0\TicketMicroservice.DataAccess.runtimeconfig.dev.json
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice.DataAccess\bin\Debug\net5.0\TicketMicroservice.DataAccess.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice.DataAccess\bin\Debug\net5.0\ref\TicketMicroservice.DataAccess.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice.DataAccess\bin\Debug\net5.0\TicketMicroservice.DataAccess.pdb
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice.DataAccess\bin\Debug\net5.0\TicketMicroservice.Core.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice.DataAccess\bin\Debug\net5.0\TicketMicroservice.Core.pdb
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice.DataAccess\obj\Debug\net5.0\TicketMicroservice.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice.DataAccess\obj\Debug\net5.0\TicketMicroservice.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice.DataAccess\obj\Debug\net5.0\TicketMicroservice.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice.DataAccess\obj\Debug\net5.0\TicketMicroservice.DataAccess.AssemblyInfo.cs
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice.DataAccess\obj\Debug\net5.0\TicketMicroservice.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice.DataAccess\obj\Debug\net5.0\TicketMicroservice.DataAccess.csproj.CopyComplete
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice.DataAccess\obj\Debug\net5.0\TicketMicroservice.DataAccess.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice.DataAccess\obj\Debug\net5.0\ref\TicketMicroservice.DataAccess.dll
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice.DataAccess\obj\Debug\net5.0\TicketMicroservice.DataAccess.pdb
+C:\Users\Susana\source\repos\Api\TicketMicroservice\TicketMicroservice.DataAccess\obj\Debug\net5.0\TicketMicroservice.DataAccess.genruntimeconfig.cache
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice.DataAccess\bin\Debug\net5.0\TicketMicroservice.DataAccess.deps.json
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice.DataAccess\bin\Debug\net5.0\TicketMicroservice.DataAccess.runtimeconfig.json
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice.DataAccess\bin\Debug\net5.0\TicketMicroservice.DataAccess.runtimeconfig.dev.json
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice.DataAccess\bin\Debug\net5.0\TicketMicroservice.DataAccess.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice.DataAccess\bin\Debug\net5.0\ref\TicketMicroservice.DataAccess.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice.DataAccess\bin\Debug\net5.0\TicketMicroservice.DataAccess.pdb
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice.DataAccess\bin\Debug\net5.0\TicketMicroservice.Core.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice.DataAccess\bin\Debug\net5.0\TicketMicroservice.Core.pdb
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice.DataAccess\obj\Debug\net5.0\TicketMicroservice.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice.DataAccess\obj\Debug\net5.0\TicketMicroservice.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice.DataAccess\obj\Debug\net5.0\TicketMicroservice.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice.DataAccess\obj\Debug\net5.0\TicketMicroservice.DataAccess.AssemblyInfo.cs
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice.DataAccess\obj\Debug\net5.0\TicketMicroservice.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice.DataAccess\obj\Debug\net5.0\TicketMicroservice.DataAccess.csproj.CopyComplete
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice.DataAccess\obj\Debug\net5.0\TicketMicroservice.DataAccess.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice.DataAccess\obj\Debug\net5.0\ref\TicketMicroservice.DataAccess.dll
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice.DataAccess\obj\Debug\net5.0\TicketMicroservice.DataAccess.pdb
+C:\Users\Susana\Documents\Punto Singular\CRUD_V2\src\TicketMicroservice.DataAccess\obj\Debug\net5.0\TicketMicroservice.DataAccess.genruntimeconfig.cache
