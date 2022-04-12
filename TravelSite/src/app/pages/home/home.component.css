@@ -3,12 +3,12 @@ body{
     height: 85.4vh;
 }
 
-.forget-password .panel-default{
+.home-form .panel-default{
     padding: 31%;
     margin-top: -27%;
 }
 
-.forget-password .panel-body{
+.home-form .panel-body{
     color: beige;
     padding: 15%;
     margin-bottom: -50%;
