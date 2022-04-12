@@ -11,15 +11,6 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap4")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("TicketMicroservice.ApliccationServices, Version=1.0.0.0, Culture=neutral, PublicK" +
-    "eyToken=null", "C:\\Users\\Susana\\Documents\\Punto Singular\\CRUD_V2\\src\\TicketMicroservice.Apliccati" +
-    "onServices", "TicketMicroservice.ApliccationServices.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("TicketMicroservice.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\Susana\\Documents\\Punto Singular\\CRUD_V2\\src\\TicketMicroservice.Core", "TicketMicroservice.Core.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("TicketMicroservice.DataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=n" +
-    "ull", "C:\\Users\\Susana\\Documents\\Punto Singular\\CRUD_V2\\src\\TicketMicroservice.DataAcces" +
-    "s", "TicketMicroservice.DataAccess.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("TicketMicroservice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\Susana\\Documents\\Punto Singular\\CRUD_V2\\src\\TicketMicroservice", "TicketMicroservice.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("TicketTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
