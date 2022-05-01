@@ -1,0 +1,50 @@
+body{
+    background:#f3c538;
+    height: 85.4vh;
+}
+
+.divDestination{
+    display: flex;
+    justify-content: right;
+}
+
+.body-title{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 95%;
+}
+
+h1{
+    font-weight: bolder;
+}
+
+.inputName{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.btnAdd{
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 40px;
+    width: 100px;
+}
+
+.home-form .panel-default{
+    padding: 31%;
+    margin-top: -27%;
+}
+
+.space{
+    margin-top: 10px;
+}
+
+footer{
+    color: beige;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container home-form">
+            <div class="row">
+                <div class="col-md-12 col-md-offset-4">
+                    <div class="panel panel-default">
+                        <div class="panel-body bg-dark">
+                            <div class="text-center">
+                                <h1>Add Ticket</h1>
+                                <form [formGroup]="addForm" autocomplete="off" class="form space" (ngSubmit)="add()">
+                                    <div class="input-field col s12">
+                                        <label>Journey:</label>
+                                        <select [(ngModel)]="journeySelected" [ngModelOptions]="{standalone: true}" class="button-size">
+                                          <option *ngFor="let d of journey" [value]="d.id">
+                                            {{d.id}}
+                                         </option>
+                                        </select>
+                                    </div>
+
+                                    <div class="input-field col s12">
+                                        <label>Passenger:</label>
+                                        <select [(ngModel)]="passengerSelected" [ngModelOptions]="{standalone: true}" class="button-size">
+                                            <option *ngFor="let d of passenger" [value]="d.id">
+                                              {{d.firstName}}
+                                           </option>
+                                        </select>
+                                    </div>
+                                    <p>
+                                        <label for="seat">Seat:</label>
+                                        <input type="number" formControlName="seat" id="departure" class="button-size" placeholder="Seat"/>
+                                    </p>
+                                    <div class="form-group space">
+                                        <button type="submit" class="btn btn-warning button-size">Add</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <footer class="bg-dark text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3">
+          © 2022 Copyright
+        </div>
+        <!-- Copyright -->
+      </footer>
+</html>

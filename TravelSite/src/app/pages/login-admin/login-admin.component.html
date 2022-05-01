@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container home-form">
+            <div class="row">
+                <div class="col-md-12 col-md-offset-4">
+                    <div class="panel panel-default">
+                        <div class="panel-body bg-dark">
+                            <div class="text-center">
+                                <img src="../../../assets/images/gear.png" alt="car-key">
+                                <h1>Login Admin</h1>
+                                <form [formGroup]="loginForm" id="login-form" autocomplete="off" class="form space" (ngSubmit)="login()">
+                                    <p>
+                                        <input type="text" formControlName="user" class="button-size" placeholder="User"/>
+                                    </p>
+                                    <p>
+                                        <input type="password" formControlName="password" class="button-size" placeholder="Password"/>
+                                    </p>
+                                    <div class="form-group space">
+                                        <button type="submit" [disabled]="loginForm.invalid" class="btn btn-warning button-size">Login</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <footer class="bg-dark text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3">
+          © 2022 Copyright
+        </div>
+        <!-- Copyright -->
+      </footer>
+</html>

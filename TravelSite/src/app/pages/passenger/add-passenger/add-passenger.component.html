@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container home-form">
+            <div class="row">
+                <div class="col-md-12 col-md-offset-4">
+                    <div class="panel panel-default">
+                        <div class="panel-body bg-dark">
+                            <div class="text-center">
+                                <h1>Add Passenger</h1>
+                                <form [formGroup]="addForm" autocomplete="off" class="form space" (ngSubmit)="add()">
+                                    <p>
+                                        <label for="firstname">First Name:</label>
+                                        <input type="text" formControlName="firstname" id="firstname" class="button-size" placeholder="First Name"/>
+                                    </p>
+                                    <p>
+                                        <label for="lastname">Last Name:</label>
+                                        <input type="text" formControlName="lastname" id="lastname" class="button-size" placeholder="Last Name"/>
+                                    </p>
+                                    <p>
+                                        <label for="age">Age:</label>
+                                        <input type="number" formControlName="age" id="age" class="button-size" placeholder="Age"/>
+                                    </p>
+                                    <div class="form-group space">
+                                        <button type="submit" class="btn btn-warning button-size">Add</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <footer class="bg-dark text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3">
+          © 2022 Copyright
+        </div>
+        <!-- Copyright -->
+      </footer>
+</html>

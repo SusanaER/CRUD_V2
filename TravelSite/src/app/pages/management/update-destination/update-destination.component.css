@@ -1,0 +1,37 @@
+body{
+    background:#f3c538;
+    height: 85.4vh;
+}
+
+.home-form .panel-default{
+    padding: 31%;
+    margin-top: -27%;
+}
+
+.home-form .panel-body{
+    color: beige;
+    padding: 15%;
+    margin-bottom: -50%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img{
+    width:40%;
+    margin-bottom:10%;
+}
+
+.space{
+    margin-top: 10px;
+}
+
+.button-size{
+    font-size: large;
+    font-weight: bold;
+    color: rgb(49, 49, 49);
+    width: 100%;
+}
+
+footer{
+    color: beige;
+}

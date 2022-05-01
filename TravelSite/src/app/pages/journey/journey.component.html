@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="body-title">
+            <h1 >Journeys</h1>
+        </div>
+        <div class="divDestination" >
+            <button type="button" (click)="addJourney()" class="btn btn-dark btnAdd">Add</button>
+        </div>
+        <table class="table table-bordered table-striped table-dark">
+            <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Origin</th>
+                    <th scope="col">Destination</th>
+                    <th scope="col">Departure</th>
+                    <th scope="col">Arrival</th>
+                    <th scope="col">Update</th>
+                    <th scope="col">Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let j of journey">
+                    <td scope="row">{{j.id}}</td>
+                    <td>{{j.originId}}</td>
+                    <td> {{j.destinationId}}</td>
+                    <td><input class="inputDate" type="datetime-local" value={{j.departure}} readonly></td>
+                    <td><input class="inputDate" type="datetime-local" value={{j.arrival}} readonly></td>
+                    <td><button type="button" (click)="updateJourney(j.id)"  class="btn btn-secondary button-size btn-style">Update</button></td>
+                    <td><button type="button" (click)="deleteJourney(j.id)" class="btn btn-danger button-size btn-style">Delete</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+    <footer class="bg-dark text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3">
+          © 2022 Copyright
+        </div>
+        <!-- Copyright -->
+    </footer>
+</html>

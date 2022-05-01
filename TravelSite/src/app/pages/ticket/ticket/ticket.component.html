@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="body-title">
+            <h1>Ticket</h1>
+        </div>
+        <div class="divPassenger" >
+            <button type="button" (click)="addTicket()" class="btn btn-dark btnAdd">Add</button>
+        </div>
+        <table class="table table-bordered table-striped table-dark">
+            <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Journey</th>
+                    <th scope="col">Passenger</th>
+                    <th scope="col">Seat</th>
+                    <th scope="col">Update</th>
+                    <th scope="col">Delete</th>
+                    <th scope="col">Generate Ticket</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let t of ticket">
+                    <td scope="row">{{t.id}}</td>
+                    <td>{{t.journeyId}}</td>
+                    <td>{{t.passengerId}}</td>
+                    <td>{{t.seat}}</td>
+                    <td><button (click)="updateTicket(t.id)" type="button" class="btn btn-secondary button-size btn-style">Update</button></td>
+                    <td><button (click)="deleteTicket(t.id)" type="button" class="btn btn-danger button-size btn-style">Delete</button></td>
+                    <td><button (click)="generateTicket(t.id)" type="button" class="btn btn-light button-size btn-style">Generate Ticket</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+    <footer class="bg-dark text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3">
+          © 2022 Copyright
+        </div>
+        <!-- Copyright -->
+    </footer>
+</html>

@@ -60,7 +60,12 @@
       "ProjectGuid": "208471cf-c173-42c3-b07e-1b4987e841be",
       "DisplayName": "TicketMicroservice",
       "ColorIndex": 10
+    },
+    "379da937-4854-40e3-addd-a7c3a6207f4b": {
+      "ProjectGuid": "379da937-4854-40e3-addd-a7c3a6207f4b",
+      "DisplayName": "JourneyMicroservice.DataAccess",
+      "ColorIndex": 11
     }
   },
-  "NextColorIndex": 11
+  "NextColorIndex": 12
 }
