@@ -20,10 +20,18 @@ export class LoginAdminComponent implements OnInit {
   
   ngOnInit(): void {
     localStorage.removeItem("id");
-    this.loginForm = this.formBuilder.group({
-      user: ["", [Validators.required]],
-      password: ["", [Validators.minLength(6), Validators.required]]
-    });
+    if(localStorage.getItem("login")){
+      this.router.navigateByUrl('management');
+      setTimeout(function(){
+        window.location.reload();
+      }, 1);
+    }else{
+      this.loginForm = this.formBuilder.group({
+        user: ["", [Validators.required]],
+        password: ["", [Validators.minLength(6), Validators.required]]
+      });
+    }
+    console.log()
   }
 
   login(): void{
@@ -33,6 +41,7 @@ export class LoginAdminComponent implements OnInit {
       setTimeout(function(){
         window.location.reload();
       }, 1);
+      localStorage.setItem("login", "01sa145ad124");
     }else{
       Swal.fire({
         title: 'Wrong credentials!',

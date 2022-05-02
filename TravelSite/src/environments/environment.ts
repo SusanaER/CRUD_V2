@@ -7,7 +7,8 @@ export const environment = {
   DESTINATION_URL: "https://localhost:773/Destination/",
   JOURNEY_URL: "https://localhost:773/Journey/",
   PASSENGER_URL: "https://localhost:778/Passenger/",
-  TICKET_URL: "https://localhost:777/Ticket/"
+  TICKET_URL: "https://localhost:777/Ticket/",
+  PAGE_URL: "http://localhost:4200/",
 };
 
 /*

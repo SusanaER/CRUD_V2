@@ -21,12 +21,19 @@ export class TicketComponent implements OnInit {
   constructor(private ticketService: TicketService, private router: Router, private formBuilder: FormBuilder ) { }
   
   ngOnInit(): void {
-    this.ticketSubs = this.ticketService.getTicket().subscribe(
-      (ticket: TicketModel[]) => {
-        this.ticket = ticket;
-      }
-    )
-    localStorage.removeItem("id");
+    if(localStorage.getItem("login")){
+      this.ticketSubs = this.ticketService.getTicket().subscribe(
+        (ticket: TicketModel[]) => {
+          this.ticket = ticket;
+        }
+      )
+      localStorage.removeItem("id");
+    }else{
+      this.router.navigateByUrl('login');
+      setTimeout(function(){
+        window.location.reload();
+      }, 1);
+    }
   }
 
   public updateTicket(ticket: string): void{

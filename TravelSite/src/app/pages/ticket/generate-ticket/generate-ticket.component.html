@@ -28,14 +28,14 @@
                     <div class="row">
                         <div class="col-sm-6">
                             <div>
-                                <span class="text-600 text-110 text-blue align-middle">Alex Doe</span>
+                                <span class="text-600 text-110 text-blue align-middle">{{passenger.firstName}} {{passenger.lastName}}</span>
                             </div>
                             <div class="text-grey-m2">
                                 <div class="my-1">
-                                    Origin: Street, City
+                                    Passenger ID: {{passenger.id}}
                                 </div>
                                 <div class="my-1">
-                                    Destination: State, Country
+                                    Age: {{passenger.age}}
                                 </div>
                             </div>
                         </div>
@@ -44,37 +44,32 @@
                         <div class="text-95 col-sm-6 align-self-start d-sm-flex justify-content-end">
                             <hr class="d-sm-none" />
                             <div class="text-grey-m2">
-                                <div class="mt-1 mb-2 text-secondary-m1 text-600 text-125">
-                                    Invoice
-                                </div>
     
-                                <div class="my-2"><i class="fa fa-circle text-blue-m2 text-xs mr-1"></i> <span class="text-600 text-90">ID:</span> #111-222</div>
+                                <div class="my-2"><i class="fa fa-circle text-blue-m2 text-xs mr-1"></i> <span class="text-600 text-90">Expedition Date: </span>{{currentDate | date:'yyyy-MM-dd'}}</div>
     
-                                <div class="my-2"><i class="fa fa-circle text-blue-m2 text-xs mr-1"></i> <span class="text-600 text-90">Issue Date:</span> Oct 12, 2019</div>
-    
-                                <div class="my-2"><i class="fa fa-circle text-blue-m2 text-xs mr-1"></i> <span class="text-600 text-90">Status:</span> <span class="badge badge-warning badge-pill px-25">Unpaid</span></div>
                             </div>
                         </div>
                         <!-- /.col -->
                     </div>
-    
                     <div class="mt-4">
                         <div class="row text-600 text-white bgc-default-tp1 py-25">
-                            <div class="d-none d-sm-block col-1">#</div>
+                            <div class="d-none d-sm-block col-1">#Ticket</div>
                             <div class="col-9 col-sm-2">Origin</div>
                             <div class="d-none d-sm-block col-4 col-sm-2">Destination</div>
                             <div class="d-none d-sm-block col-sm-2">Departure</div>
                             <div class="col-2">Arrival</div>
+                            <div class="d-none d-sm-block col-sm-1">Seat</div>
                             <div class="col-2">Price</div>
                         </div>
     
                         <div class="text-95 text-secondary-d3">
                             <div class="row mb-2 mb-sm-0 py-25 bgc-default-l4">
-                                <div class="d-none d-sm-block col-1">{{journey.id}}</div>
+                                <div class="d-none d-sm-block col-1">{{ticket.id}}</div>
                                 <div class="col-9 col-sm-2">{{origin.name}}</div>
                                 <div class="d-none d-sm-block col-4 col-sm-2">{{destination.name}}</div>
                                 <div class="d-none d-sm-block col-sm-2">{{journey.departure}}</div>
                                 <div class="col-2">{{journey.arrival}}</div>
+                                <div class="d-none d-sm-block col-sm-1">{{ticket.seat}}</div>
                                 <div class="col-2">$650</div>
                             </div>
 
@@ -121,7 +116,7 @@
                                         SubTotal
                                     </div>
                                     <div class="col-5">
-                                        <span class="text-120 text-secondary-d1">$2,250</span>
+                                        <span class="text-120 text-secondary-d1">$650</span>
                                     </div>
                                 </div>
     
@@ -130,7 +125,7 @@
                                         Tax (10%)
                                     </div>
                                     <div class="col-5">
-                                        <span class="text-110 text-secondary-d1">$225</span>
+                                        <span class="text-110 text-secondary-d1">$65</span>
                                     </div>
                                 </div>
     
@@ -139,7 +134,7 @@
                                         Total Amount
                                     </div>
                                     <div class="col-5">
-                                        <span class="text-150 text-success-d3 opacity-2">$2,475</span>
+                                        <span class="text-150 text-success-d3 opacity-2">$715</span>
                                     </div>
                                 </div>
                             </div>

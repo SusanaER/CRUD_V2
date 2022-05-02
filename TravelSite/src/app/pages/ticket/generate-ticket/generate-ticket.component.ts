@@ -9,6 +9,10 @@ import { JourneyService } from 'src/app/services/journey/journey.service';
 import Swal from 'sweetalert2';
 import jspdf from 'jspdf';
 import html2canvas from 'html2canvas';
+import { TicketModel } from 'src/app/common/models/ticket.model';
+import { TicketService } from 'src/app/services/ticket/ticket.service';
+import { PassengerModel } from 'src/app/common/models/passenger.model';
+import { PassengerService } from 'src/app/services/passenger/passenger.service';
 
 @Component({
   selector: 'app-generate-ticket',
@@ -25,30 +29,59 @@ export class GenerateTicketComponent implements OnInit {
   destinationSubs!: Subscription;
   destination!: DestinationModel;
   origin!: DestinationModel;
+  ticket!: TicketModel;
+  ticketSubs!: Subscription;
+  journeyId!: string;
+  passengerId!: string;
+  passenger!: PassengerModel;
+  passengerSubs!: Subscription;
+  currentDate = new Date();
 
-  constructor(private journeyService: JourneyService, private destinationService: DestinationService, private router: Router, private formBuilder: FormBuilder) { }
+  constructor(private ticketService: TicketService, private passengerService: PassengerService, private journeyService: JourneyService, private destinationService: DestinationService, private router: Router, private formBuilder: FormBuilder) { }
   ngOnInit(): void {
-    if (this.id == null){
-      this.router.navigateByUrl("/ticket");
+    if(localStorage.getItem("login")){
+      if (this.id == null){
+        alert('id is null')
+      }else{
+        this.ticketSubs = this.ticketService.getTicketById(this.id).subscribe(
+          (t: TicketModel) => {
+            this.ticket = t;
+            this.journeyId = this.ticket.journeyId;
+            this.passengerId = this.ticket.passengerId;
+            if(this.journeyId === undefined){
+              console.log('Journey Id is undefined')
+            }else{
+              this.journeySubs = this.journeyService.getJourneyById(this.ticket.journeyId).subscribe(
+                (j: JourneyModel) => {
+                  this.journey = j;
+                  this.originSelected = j.originId;
+                  this.destinationSelected = j.destinationId;
+                  this.destinationSubs = this.destinationService.getDestinationById(this.journey.destinationId).subscribe(
+                    (destinations: DestinationModel) => {
+                      this.destination = destinations;
+                    }
+                  );
+                  this.destinationSubs = this.destinationService.getDestinationById(this.journey.originId).subscribe(
+                    (origins: DestinationModel) => {
+                      this.origin = origins;
+                    }
+                  );
+                }
+              ) 
+            }
+            this.passengerSubs = this.passengerService.getPassengerById(this.passengerId).subscribe(
+              (p: PassengerModel) => {
+                this.passenger = p;
+              }
+            )
+          }
+        )
+      }
     }else{
-      console.log(this.id)
-      this.journeySubs = this.journeyService.getJourneyById(this.id).subscribe(
-        (j: JourneyModel) => {
-          this.journey = j;
-          this.originSelected = this.journey.originId;
-          this.destinationSelected = this.journey.destinationId;
-          this.destinationSubs = this.destinationService.getDestinationById(this.journey.destinationId).subscribe(
-            (destinations: DestinationModel) => {
-              this.destination = destinations;
-            }
-          );
-          this.destinationSubs = this.destinationService.getDestinationById(this.journey.originId).subscribe(
-            (origins: DestinationModel) => {
-              this.origin = origins;
-            }
-          );
-        }
-      )
+      this.router.navigateByUrl('login');
+      setTimeout(function(){
+        window.location.reload();
+      }, 1);
     }
   }
 
@@ -68,3 +101,4 @@ export class GenerateTicketComponent implements OnInit {
       }
     }
 }
+

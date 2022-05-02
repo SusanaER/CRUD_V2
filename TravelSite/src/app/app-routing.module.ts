@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './pages/home/home.component';
 import { AddJourneyComponent } from './pages/journey/add-journey/add-journey.component';
 import { JourneyComponent } from './pages/journey/journey.component';
 import { UpdateJourneyComponent } from './pages/journey/update-journey/update-journey.component';
@@ -16,8 +15,7 @@ import { TicketComponent } from './pages/ticket/ticket/ticket.component';
 import { UpdateTicketComponent } from './pages/ticket/update-ticket/update-ticket.component';
 
 const routes: Routes = [
-  {path: '', pathMatch: 'full', redirectTo: '/home'},
-  {path: 'home', component: HomeComponent},
+  {path: '', pathMatch: 'full', redirectTo: 'login'},
   {path: 'passenger', component: PassengerComponent},
   {path: 'login', component: LoginAdminComponent},
   {path: 'management', component: ManagementComponent},
@@ -31,7 +29,7 @@ const routes: Routes = [
   {path: 'addTicket', component: AddTicketComponent},
   {path: 'updateTicket', component: UpdateTicketComponent},
   {path: 'generateTicket', component: GenerateTicketComponent},
-  {path: '**', redirectTo: '/home'}
+  {path: '**', redirectTo: 'login'}
 ];
 
 @NgModule({

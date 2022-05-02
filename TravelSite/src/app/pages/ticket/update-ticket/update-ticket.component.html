@@ -15,26 +15,17 @@
                             <div class="text-center">
                                 <h1>Upadate Ticket</h1>
                                 <form [formGroup]="updateForm" autocomplete="off" class="form space" (ngSubmit)="update()">
-                                    <div class="input-field col s12">
-                                        <label>Journey:</label>
-                                        <select [(ngModel)]="originSelected" [ngModelOptions]="{standalone: true}" class="button-size">
-                                          <option *ngFor="let d of destination" [value]="d.id">
-                                            {{d.name}}
-                                         </option>
-                                        </select>
-                                    </div>
-
-                                    <div class="input-field col s12">
-                                        <label>Passenger:</label>
-                                        <select [(ngModel)]="destinationSelected" [ngModelOptions]="{standalone: true}" class="button-size">
-                                            <option *ngFor="let d of destination" [value]="d.id">
-                                              {{d.name}}
-                                           </option>
-                                        </select>
-                                    </div>
                                     <p>
-                                        <label for="departure">Seat:</label>
-                                        <input type="datetime-local" formControlName="departure" id="departure" class="button-size" />
+                                        <label for="journey">Journey:</label>
+                                        <input type="text" formControlName="journey" id="journey" class="button-size" />
+                                    </p>
+                                    <p>
+                                        <label for="passenger">Passenger:</label>
+                                        <input type="text" formControlName="passenger" id="passenger" class="button-size" />
+                                    </p>
+                                    <p>
+                                        <label for="seat">Seat:</label>
+                                        <input type="text" formControlName="seat" id="seat" class="button-size" />
                                     </p>
                                     <div class="form-group space">
                                         <button type="submit" class="btn btn-warning button-size">Update</button>

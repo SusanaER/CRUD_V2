@@ -26,25 +26,32 @@ export class UpdateJourneyComponent implements OnInit {
   constructor(private journeyService: JourneyService, private destinationService: DestinationService, private router: Router, private formBuilder: FormBuilder) { }
 
   ngOnInit(): void {
-    this.getDestinations();
-    this.updateForm = this.formBuilder.group({
-      arrival: ["", [Validators.required]],
-      departure: ["", [Validators.required]],
-    });
-    if (this.id == null){
+    if(localStorage.getItem("login")){
+      this.getDestinations();
+      this.updateForm = this.formBuilder.group({
+        arrival: ["", [Validators.required]],
+        departure: ["", [Validators.required]],
+      });
+      if (this.id == null){
 
+      }else{
+        this.journeySubs = this.journeyService.getJourneyById(this.id).subscribe(
+          (j: JourneyModel) => {
+            this.journey = j;
+            this.originSelected = this.journey.originId;
+            this.destinationSelected = this.journey.destinationId;
+            this.updateForm.setValue({
+              departure: this.journey.departure,
+              arrival: this.journey.arrival
+            }); 
+          }
+        )
+      }
     }else{
-      this.journeySubs = this.journeyService.getJourneyById(this.id).subscribe(
-        (j: JourneyModel) => {
-          this.journey = j;
-          this.originSelected = this.journey.originId;
-          this.destinationSelected = this.journey.destinationId;
-          this.updateForm.setValue({
-            departure: this.journey.departure,
-            arrival: this.journey.arrival
-          }); 
-        }
-      )
+      this.router.navigateByUrl('login');
+      setTimeout(function(){
+        window.location.reload();
+      }, 1);
     }
   }
 
@@ -74,6 +81,9 @@ export class UpdateJourneyComponent implements OnInit {
         }
       });
       this.router.navigateByUrl("/journey");
+      setTimeout(function(){
+        window.location.reload();
+      }, 2);
     }
   }
 

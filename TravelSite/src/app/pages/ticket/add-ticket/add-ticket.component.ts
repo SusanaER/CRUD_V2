@@ -27,14 +27,21 @@ export class AddTicketComponent implements OnInit {
   constructor(private ticketService: TicketService, private journeyService: JourneyService, private passengerService: PassengerService, private router: Router, private formBuilder: FormBuilder) { }
 
   ngOnInit(): void {
-    this.getJourney();
-    this.getPassenger();
-    localStorage.removeItem("id");
-    this.addForm = this.formBuilder.group({
-      seat: ["", [Validators.required]],
-    });
-    this.journeySelected = "1";
-    this.passengerSelected = "1";
+    if(localStorage.getItem("login")){
+      this.getJourney();
+      this.getPassenger();
+      localStorage.removeItem("id");
+      this.addForm = this.formBuilder.group({
+        seat: ["", [Validators.required]],
+      });
+      this.journeySelected = "1";
+      this.passengerSelected = "1";
+    }else{
+      this.router.navigateByUrl('login');
+      setTimeout(function(){
+        window.location.reload();
+      }, 1);
+    }
   }
 
   add(): void{

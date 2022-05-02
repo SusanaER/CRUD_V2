@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './pages/home/home.component';
 import { PassengerComponent } from './pages/passenger/passenger.component';
 import { LoginAdminComponent } from './pages/login-admin/login-admin.component';
 import { ManagementComponent } from './pages/management/management.component';
@@ -21,7 +20,6 @@ import { GenerateTicketComponent } from './pages/ticket/generate-ticket/generate
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
     PassengerComponent,
     LoginAdminComponent,
     ManagementComponent,

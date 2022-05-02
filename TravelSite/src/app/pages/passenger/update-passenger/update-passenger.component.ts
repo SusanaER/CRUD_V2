@@ -21,29 +21,36 @@ export class UpdatePassengerComponent implements OnInit {
   constructor(private passengerService: PassengerService, private router: Router, private formBuilder: FormBuilder) { }
 
   ngOnInit(): void {
-    this.updateForm = this.formBuilder.group({
-      firstname: ["", [Validators.required]],
-      lastname: ["", [Validators.required]],
-      age: ["", [Validators.required]],
-    });
-    if (this.id == null){
-      Swal.fire({
-        title: 'Id of passenger not found.',
-        text: 'Please check the data.',
-        icon: 'error',
-        confirmButtonText: 'Ok',
+    if(localStorage.getItem("login")){
+      this.updateForm = this.formBuilder.group({
+        firstname: ["", [Validators.required]],
+        lastname: ["", [Validators.required]],
+        age: ["", [Validators.required]],
       });
+      if (this.id == null){
+        Swal.fire({
+          title: 'Id of passenger not found.',
+          text: 'Please check the data.',
+          icon: 'error',
+          confirmButtonText: 'Ok',
+        });
+      }else{
+        this.passengernSubs = this.passengerService.getPassengerById(this.id).subscribe(
+          (p: PassengerModel) => {
+            this.passenger = p;
+            this.updateForm.setValue({
+              firstname: this.passenger.firstName,
+              lastname: this.passenger.lastName,
+              age: this.passenger.age
+            });
+          }
+        )
+      }
     }else{
-      this.passengernSubs = this.passengerService.getPassengerById(this.id).subscribe(
-        (p: PassengerModel) => {
-          this.passenger = p;
-          this.updateForm.setValue({
-            firstname: this.passenger.firstName,
-            lastname: this.passenger.lastName,
-            age: this.passenger.age
-          });
-        }
-      )
+      this.router.navigateByUrl('login');
+      setTimeout(function(){
+        window.location.reload();
+      }, 1);
     }
   }
 
@@ -72,6 +79,9 @@ export class UpdatePassengerComponent implements OnInit {
         }
       });
       this.router.navigateByUrl("/passenger");
+      setTimeout(function(){
+        window.location.reload();
+      }, 2);
     }
   }
 }

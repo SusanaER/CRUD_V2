@@ -2,10 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, FormsModule, NgModelGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { Subscription } from 'rxjs';
-import { DestinationModel } from 'src/app/common/models/destination.model';
-import { JourneyModel } from 'src/app/common/models/journeys.model';
-import { DestinationService } from 'src/app/services/destination/destination.service';
-import { JourneyService } from 'src/app/services/journey/journey.service';
+import { TicketModel } from 'src/app/common/models/ticket.model';
+import { TicketService } from 'src/app/services/ticket/ticket.service';
 import Swal from 'sweetalert2';
 
 @Component({
@@ -14,47 +12,53 @@ import Swal from 'sweetalert2';
   styleUrls: ['./update-ticket.component.css']
 })
 export class UpdateTicketComponent implements OnInit {
-  journey!: JourneyModel;
-  journeySubs!: Subscription;
-  originSelected!: string;
-  destinationSelected!: string;
+  ticket!: TicketModel;
+  ticketSubs!: Subscription;
   id = localStorage.getItem("id");
   updateForm !: FormGroup;
-  destinationSubs!: Subscription;
-  destination: DestinationModel[] = [];
 
-  constructor(private journeyService: JourneyService, private destinationService: DestinationService, private router: Router, private formBuilder: FormBuilder) { }
+  constructor(private ticketService: TicketService, private router: Router, private formBuilder: FormBuilder) { }
 
   ngOnInit(): void {
-    this.getDestinations();
-    this.updateForm = this.formBuilder.group({
-      arrival: ["", [Validators.required]],
-      departure: ["", [Validators.required]],
-    });
-    if (this.id == null){
-
+    if(localStorage.getItem("login")){
+      this.updateForm = this.formBuilder.group({
+        journey: ["", [Validators.required]],
+        passenger: ["", [Validators.required]],
+        seat: ["", [Validators.required]],
+      });
+      if (this.id == null){
+        Swal.fire({
+          title: 'Id is null',
+          text: 'Please check the data.',
+          icon: 'error',
+          confirmButtonText: 'Ok',
+        });
+      }else{
+        this.ticketSubs = this.ticketService.getTicketById(this.id).subscribe(
+          (t: TicketModel) => {
+            this.ticket = t;
+            this.updateForm.setValue({
+              journey: this.ticket.journeyId,
+              passenger: this.ticket.passengerId,
+              seat: this.ticket.seat
+            }); 
+          }
+        )
+      }
     }else{
-      this.journeySubs = this.journeyService.getJourneyById(this.id).subscribe(
-        (j: JourneyModel) => {
-          this.journey = j;
-          this.originSelected = this.journey.originId;
-          this.destinationSelected = this.journey.destinationId;
-          this.updateForm.setValue({
-            departure: this.journey.departure,
-            arrival: this.journey.arrival
-          }); 
-        }
-      )
+      this.router.navigateByUrl('login');
+      setTimeout(function(){
+        window.location.reload();
+      }, 1);
     }
   }
 
   update(){
-    var idJourney = this.id;
-    var destinationId = this.updateForm.getRawValue().destinationId;
-    var originId = this.updateForm.getRawValue().originId;
-    var departure = this.updateForm.getRawValue().departure;
-    var arrival = this.updateForm.getRawValue().arrival;
-    if(idJourney === null){
+    var id = this.id;
+    var journey = this.updateForm.getRawValue().journey;
+    var passenger = this.updateForm.getRawValue().passenger;
+    var seat = this.updateForm.getRawValue().seat;
+    if(id === null){
       Swal.fire({
         title: 'Id is null',
         text: 'Please check the data.',
@@ -62,9 +66,9 @@ export class UpdateTicketComponent implements OnInit {
         confirmButtonText: 'Ok',
       });
     }else{
-      this.journeySubs = this.journeyService.updateJourney(idJourney, destinationId, originId, departure, arrival).subscribe();
+      this.ticketSubs = this.ticketService.updateTicket(id, journey, passenger, seat).subscribe();
       Swal.fire({
-        title: 'Journey Id: ' + idJourney + ' edited',
+        title: 'Ticket Id: ' + id + ' edited',
         icon: 'success',
         showClass: {
           popup: 'animate__animated animate__fadeInDown'
@@ -73,15 +77,10 @@ export class UpdateTicketComponent implements OnInit {
           popup: 'animate__animated animate__fadeOutUp'
         }
       });
-      this.router.navigateByUrl("/journey");
+      this.router.navigateByUrl("ticket");
+      setTimeout(function(){
+        window.location.reload();
+      }, 2);
     }
-  }
-
-  getDestinations(){
-    this.destinationSubs = this.destinationService.getDestination().subscribe(
-      (destinations: DestinationModel[]) => {
-        this.destination = destinations;
-      }
-    )
   }
 }

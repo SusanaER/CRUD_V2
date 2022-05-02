@@ -5,6 +5,7 @@ import Swal from 'sweetalert2';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { PassengerService } from 'src/app/services/passenger/passenger.service';
 import { PassengerModel } from 'src/app/common/models/passenger.model';
+import { environment as e } from 'src/environments/environment';
 @Component({
   selector: 'app-passenger',
   templateUrl: './passenger.component.html',
@@ -18,15 +19,19 @@ export class PassengerComponent implements OnInit {
   constructor(private passengerService: PassengerService, private router: Router, private formBuilder: FormBuilder ) { }
   
   ngOnInit(): void {
-    this.passengerSubs = this.passengerService.getPassenger().subscribe(
-      (passengers: PassengerModel[]) => {
-        this.passenger = passengers;
-      }
-    )
-    localStorage.removeItem("id");
-    this.AddForm = this.formBuilder.group({
-      name: ["", [Validators.required]]
-    });
+    if(localStorage.getItem("login")){
+      this.passengerSubs = this.passengerService.getPassenger().subscribe(
+        (passengers: PassengerModel[]) => {
+          this.passenger = passengers;
+        }
+      )
+      localStorage.removeItem("id");
+      this.AddForm = this.formBuilder.group({
+        name: ["", [Validators.required]]
+      });
+    }else{
+      window.location.assign(e.PAGE_URL + 'login')
+    }
   }
 
   public updatePassenger(passenger: string): void{

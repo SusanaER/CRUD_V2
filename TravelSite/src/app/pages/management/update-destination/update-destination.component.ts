@@ -20,19 +20,31 @@ export class UpdateDestinationComponent implements OnInit {
   constructor(private destinationService: DestinationService, private router: Router, private formBuilder: FormBuilder) { }
 
   ngOnInit(): void {
-    if (this.id == null){
-
+    if(localStorage.getItem("login")){
+      if (this.id == null){
+        Swal.fire({
+          title: 'Id is null',
+          text: 'Please check the data.',
+          icon: 'error',
+          confirmButtonText: 'Ok',
+        });
+      }else{
+        this.destinationSubs = this.destinationService.getDestinationById(this.id).subscribe(
+          (destinations: DestinationModel) => {
+            this.destination = destinations;
+          }
+        )
+      }
+      this.updateForm = this.formBuilder.group({
+        id: ["", [Validators.required]],
+        name: ["", [Validators.required]]
+      });
     }else{
-      this.destinationSubs = this.destinationService.getDestinationById(this.id).subscribe(
-        (destinations: DestinationModel) => {
-          this.destination = destinations;
-        }
-      )
+      this.router.navigateByUrl('login');
+      setTimeout(function(){
+        window.location.reload();
+      }, 1);
     }
-    this.updateForm = this.formBuilder.group({
-      id: ["", [Validators.required]],
-      name: ["", [Validators.required]]
-    });
   }
 
   update(){

@@ -22,15 +22,22 @@ export class JourneyComponent implements OnInit {
   constructor(private journeyService: JourneyService, private router: Router, private formBuilder: FormBuilder ) { }
   
   ngOnInit(): void {
-    this.journeySubs = this.journeyService.getJourney().subscribe(
-      (journeys: JourneyModel[]) => {
-        this.journey = journeys;
-      }
-    )
-    localStorage.removeItem("id");
-    this.AddForm = this.formBuilder.group({
-      name: ["", [Validators.required]]
-    });
+    if(localStorage.getItem("login")){
+      this.journeySubs = this.journeyService.getJourney().subscribe(
+        (journeys: JourneyModel[]) => {
+          this.journey = journeys;
+        }
+      )
+      localStorage.removeItem("id");
+      this.AddForm = this.formBuilder.group({
+        name: ["", [Validators.required]]
+      });
+    }else{
+      this.router.navigateByUrl('login');
+      setTimeout(function(){
+        window.location.reload();
+      }, 1);
+    }
   }
 
   addJourney(): void{

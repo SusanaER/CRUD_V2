@@ -5,6 +5,7 @@ import { DestinationService } from 'src/app/services/destination/destination.ser
 import { Router } from '@angular/router';
 import Swal from 'sweetalert2';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { environment as e } from 'src/environments/environment';
 
 @Component({
   selector: 'app-management',
@@ -19,15 +20,19 @@ export class ManagementComponent implements OnInit, OnDestroy {
   constructor(private destinationService: DestinationService, private router: Router, private formBuilder: FormBuilder ) { }
   
   ngOnInit(): void {
-    this.destinationSubs = this.destinationService.getDestination().subscribe(
-      (destinations: DestinationModel[]) => {
-        this.destination = destinations;
-      }
-    )
-    localStorage.removeItem("id");
-    this.AddForm = this.formBuilder.group({
-      name: ["", [Validators.required]]
-    });
+    if(localStorage.getItem("login")){
+      this.destinationSubs = this.destinationService.getDestination().subscribe(
+        (destinations: DestinationModel[]) => {
+          this.destination = destinations;
+        }
+      )
+      localStorage.removeItem("id");
+      this.AddForm = this.formBuilder.group({
+        name: ["", [Validators.required]]
+      });
+    }else{
+      window.location.assign(e.PAGE_URL + 'login')
+    }
   }
 
   public updateDestination(destination: string): void{

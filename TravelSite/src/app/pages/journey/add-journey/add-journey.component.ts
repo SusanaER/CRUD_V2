@@ -24,16 +24,23 @@ export class AddJourneyComponent implements OnInit {
   constructor(private destinationService: DestinationService, private journeyService: JourneyService, private router: Router, private formBuilder: FormBuilder) { }
 
   ngOnInit(): void {
-    localStorage.removeItem("id");
-    this.getDestinations();
-    this.addForm = this.formBuilder.group({
-      origin: ["", [Validators.required]],
-      destination: ["", [Validators.required]],
-      arrival: ["", [Validators.required]],
-      departure: ["", [Validators.required]],
-    });
-    this.originSelected = "1";
-    this.destinationSelected = "2";
+    if(localStorage.getItem("login")){
+      localStorage.removeItem("id");
+      this.getDestinations();
+      this.addForm = this.formBuilder.group({
+        origin: ["", [Validators.required]],
+        destination: ["", [Validators.required]],
+        arrival: ["", [Validators.required]],
+        departure: ["", [Validators.required]],
+      });
+      this.originSelected = "1";
+      this.destinationSelected = "2";
+    }else{
+      this.router.navigateByUrl('login');
+      setTimeout(function(){
+        window.location.reload();
+      }, 1);
+    }
   }
 
   add(): void{

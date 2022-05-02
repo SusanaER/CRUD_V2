@@ -19,12 +19,19 @@ export class AddPassengerComponent implements OnInit {
   constructor(private passengerService: PassengerService, private router: Router, private formBuilder: FormBuilder) { }
 
   ngOnInit(): void {
-    localStorage.removeItem("id");
-    this.addForm = this.formBuilder.group({
-      firstname: ["", [Validators.required]],
-      lastname: ["", [Validators.required]],
-      age: ["", [Validators.required]],
-    });
+    if(localStorage.getItem("login")){
+      localStorage.removeItem("id");
+      this.addForm = this.formBuilder.group({
+        firstname: ["", [Validators.required]],
+        lastname: ["", [Validators.required]],
+        age: ["", [Validators.required]],
+      });
+    }else{
+      this.router.navigateByUrl('login');
+      setTimeout(function(){
+        window.location.reload();
+      }, 1);
+    }
   }
 
   add(): void{
